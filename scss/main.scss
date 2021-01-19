@@ -117,7 +117,7 @@ h2 {
         background-color: #4ce35c;
     }
 }
-
+//selection
 .selection {
     p {
         &::selection {
@@ -126,7 +126,7 @@ h2 {
         }
     }
 }
-
+// first letter
 .first-letter {
     p {
         padding-left: 0;
@@ -136,14 +136,14 @@ h2 {
         font-size: 1.9rem;
     }
 }
-
+//first line
 .first-line {
 
     p:first-line {
         font-size: .5rem;
     }
 }
-
+//child selectors
 .child-selector {
     margin-top: 1rem;
 
@@ -187,7 +187,7 @@ h2 {
         }
     }
 }
-
+//transitions
 .transition {
     .transition--relative {   
         margin: 1.5rem;  
